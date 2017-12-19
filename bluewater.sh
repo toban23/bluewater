@@ -8,6 +8,10 @@
 # Source function library.
 . /lib/lsb/init-functions
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 357a3871d60652a558ceff18af4cc1b1b7144869
 # Variables
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 DESC="Test Development Daemon"
