@@ -1,0 +1,9 @@
+[Unit]
+Description=Bluewater daemon
+
+[Service]
+Type=forking
+ExecStart=/home/pi/projects/Daemon/output/bluewater
+ExecReload=/bin/kill -HUP 
+Restart=on-failure
+KillMode=process
